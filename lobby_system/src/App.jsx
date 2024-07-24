@@ -8,6 +8,7 @@ function App() {
 
   return <div> 
       <h1>Tic Tac Toe</h1>
+      <div>
       {TIC_TAC_TOE.map(
       (row, i)=>{
         return row.map((cell, j)=>{
@@ -15,7 +16,7 @@ function App() {
 
         })
       }
-    )}
+    )}</div>
     </div>
 }
 
